@@ -1,0 +1,16 @@
+.nav-logo-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.nav-lang-options{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.nav-lang-options li{
+    text-decoration: none;
+    list-style: none;
+}

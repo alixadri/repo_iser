@@ -1,0 +1,20 @@
+<nav class="nav-main">
+    <diV class="nav-logo-title">
+        <img src="../../assets/Resources/Navbar/image 1.png" />
+        <h4>
+            Repositorio
+        </h4>
+    </diV>
+    <div class="nav-lang-options">
+        <ul>
+            <li>
+                <select>
+                    <option>categorias</option>
+                </select>
+            </li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+</nav>
