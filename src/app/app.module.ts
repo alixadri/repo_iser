@@ -7,7 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { MosaicosComponent } from './mosaicos/mosaicos.component';
-import { BarradebusquedaComponent } from './barradebusqueda/barradebusqueda.component';
+
 import { CarruselComponent } from './carrusel/carrusel.component';
 
 @NgModule({
@@ -17,7 +17,6 @@ import { CarruselComponent } from './carrusel/carrusel.component';
     HomeComponent,
     FooterComponent,
     MosaicosComponent,
-    BarradebusquedaComponent,
     CarruselComponent
   ],
   imports: [

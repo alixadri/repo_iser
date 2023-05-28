@@ -1,0 +1,71 @@
+/*MAIN*/
+
+.mosaicos-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-image: url("/assets/Resources/Mosaicos/iser.png");
+    background-size: cover;
+}
+
+/*MAIN*/
+
+/* BARRA DE NAVEGACION*/
+.mosaicos-bar-icon {
+    background: #FFFFFF;
+    border: 1px solid #7E7E7E;
+    border-radius: 2rem;
+    width: fit-content;
+    box-sizing: border-box;
+    padding: 0.3%;
+    margin-bottom: 4rem;
+}
+
+.mosaicos-bar-icon input {
+    border: none;
+    width: 90%;
+}
+
+.mosaicos-bar-icon input:focus {
+    outline: none;
+    border: none;
+}
+
+/* BARRA DE NAVEGACION*/
+
+/* MOSAICOS*/
+
+.mosaicos-group {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 2rem;
+}
+
+.mosaicos-item {
+    flex-wrap: nowrap;
+    padding: 3rem;
+    cursor: pointer;
+}
+
+/* MOSAICOS*/
+
+@media (max-width: 768px) {
+
+    .mosaicos-item {
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .mosaicos-group {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .mosaicos-item {
+        padding: 2rem;
+    }
+}
