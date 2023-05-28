@@ -21,7 +21,7 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
-              "src/favicon.ico",
+              "src/assets/Resources/General/id_corp_logo_vert_colores.ico",
               "src/assets"
             ],
             "styles": [
