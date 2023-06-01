@@ -37,8 +37,9 @@
     outline: none;
     border: none;
 }
-.mosaicos-bar-icon i{
-cursor: pointer;
+
+.mosaicos-bar-icon i {
+    cursor: pointer;
 }
 
 /* BARRA DE NAVEGACION*/
@@ -54,10 +55,29 @@ cursor: pointer;
 }
 
 .mosaicos-item {
+    flex-direction: column;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-wrap: nowrap;
-    padding: 3rem;
+    margin: 1.5rem;
+    padding: 2rem;
+    max-width: 200px;
+    height: auto;
     cursor: pointer;
     border-radius: 20px;
+    text-align: center;
+}
+
+.mosaicos-item img {
+    max-width: 100px;
+    height: auto;
+}
+
+.mosaicos-item label {
+    max-width: 60%;
+    font-size: smaller;
 }
 
 /* MOSAICOS*/
@@ -65,9 +85,12 @@ cursor: pointer;
 @media (max-width: 768px) {
 
     .mosaicos-item {
-        padding: 2rem;
+        padding: 1rem;
+        margin: 0rem;
+        max-width: 150px;
     }
-    .mosaicos-bar-icon{
+
+    .mosaicos-bar-icon {
         padding: 0.5%;
     }
 }
@@ -79,9 +102,12 @@ cursor: pointer;
     }
 
     .mosaicos-item {
-        padding: 2rem;
+        padding: 1rem;
+        margin: 0rem;
+        max-width: 150px;
     }
-    .mosaicos-bar-icon{
+
+    .mosaicos-bar-icon {
         padding: 0.6%;
     }
 }
